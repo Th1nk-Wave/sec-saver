@@ -153,9 +153,9 @@ namespace sec_saver
 
             while (CharacterStack.TryPeek(out peeker))
             {
-
+                break;
             }
-            return uint.MaxValue;
+            return [UInt32.MaxValue];
         }
 
         private void StepText()
